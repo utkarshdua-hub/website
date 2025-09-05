@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  min-height: 100vh;
+
+  /* ✅ Background image */
+  background: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white; /* makes text readable */
+}
+
+/* Navbar container */
+nav {
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent so background shows */
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Links container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4CAF50;
+}
+
+/* Page content */
+.content {
+  padding: 60px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent box */
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 80px auto;
+}
+
+h1, h2, h3 {
+  color:#394347;
+}
+
+/* Banner (below navbar) */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px;   /* Adjust the height as you like (e.g., 250px, 400px) */
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops nicely to fill the banner area */
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* white text */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* makes text readable */
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ECEFF1; /* grey-white */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+}
+
+
+.text-p{
+
+    text-align:center;
+    color:black;
+}
+
+
+
+ body { font-family: Arial, sans-serif; padding: 20px; }
+    #chatbox { max-width: 420px; border: 1px solid #ccc; padding: 10px; border-radius: 12px; }
+    #messages { height: 260px; overflow-y: auto; margin-bottom: 10px; }
+    #userInput { width: 70%; }

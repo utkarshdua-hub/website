@@ -7,16 +7,15 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "dotenv": "^17.2.1",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "faiss-node": "^0.5.1",
-    "langchain": "^0.3.31",
-    "node-fetch": "^3.3.2",
-    "openai": "^5.16.0",
-    "weaviate-ts-client": "^2.2.0"
+    "node-fetch": "^3.3.2"
   },
-  "description": "",
+  "description": "My website hosted on Render",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  }
 }
